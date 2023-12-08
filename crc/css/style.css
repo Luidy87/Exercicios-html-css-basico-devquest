@@ -1,0 +1,43 @@
+body{
+    background: rgb(63,94,251);
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(93,133,206,1) 47%, rgba(103,146,191,1) 63%, rgba(183,252,70,0.4005251758906687) 100%);
+}
+.container{
+    border: 2px solid black;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.header{
+   padding: 20px;
+    text-align: center;
+    background: linear-gradient(121deg, rgba(15, 37, 110, 1) 12%, rgba(32, 178, 7, 1) 84%);
+    background-blend-mode: normal;
+}
+
+.html{
+    color: red;
+}
+
+.css{
+    color: blue;
+}
+
+.exercicios{
+    background-color: black;
+display: flex;
+justify-content: space-between;
+padding: 80px;
+}
+
+.exercicios a{
+    color: yellow;
+    font-size: 20px;
+}
+
+.exercicios a:hover{
+    color:red;
+    background-color: chartreuse;
+    border-radius: 18px;
+    transition: ease-in-out 1s;
+}
